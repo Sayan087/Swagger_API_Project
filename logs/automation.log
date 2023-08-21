@@ -1,0 +1,16 @@
+14:59:11.741 [main] INFO  api.test.UserTests {36} - Creating user--------------------
+14:59:14.984 [main] INFO  api.test.UserTests {36} - Successfully Create user info! 
+14:59:14.996 [main] INFO  api.test.UserTests {36} - Reading user--------------------
+14:59:16.308 [main] INFO  api.test.UserTests {36} - Successfully Read user info! 
+14:59:16.312 [main] INFO  api.test.UserTests {36} - Updating user--------------------
+14:59:18.882 [main] INFO  api.test.UserTests {36} - Successfully Updates user info! 
+14:59:18.885 [main] INFO  api.test.UserTests {36} - Deleting user--------------------
+14:59:20.172 [main] INFO  api.test.UserTests {36} - Successfully Deletes user info! 
+15:08:10.315 [main] INFO  api.test.UserTests {36} - Creating user--------------------
+15:08:11.580 [main] INFO  api.test.UserTests {36} - Successfully Create user info! 
+15:08:11.581 [main] INFO  api.test.UserTests {36} - Reading user--------------------
+15:08:12.821 [main] INFO  api.test.UserTests {36} - Successfully Read user info! 
+15:08:12.823 [main] INFO  api.test.UserTests {36} - Updating user--------------------
+15:08:15.468 [main] INFO  api.test.UserTests {36} - Successfully Updates user info! 
+15:08:15.469 [main] INFO  api.test.UserTests {36} - Deleting user--------------------
+15:08:16.795 [main] INFO  api.test.UserTests {36} - Successfully Deletes user info! 

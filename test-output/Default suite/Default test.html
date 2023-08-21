@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 21 13:15:30 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>19 seconds (19354 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1010, John@23, John, Karter, john@123gmail.com, Jo1234, 123456</td>
+<td></td>
+<td>3</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: Stuart@34</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: Smith@23</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1013, Stuart@34, Stuart, Borad, stuart@234gmail.com, SB2233, 143256</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: John@23</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1015, John@27, John, Smith, johnsmith21@gmail.com, Jo9876, 156432</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: James@45</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1012, James@45, James, Pattinson, james@123gmail.com, JA1234, 142356</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: Jimmy@12</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1011, Smith@23, Steven, Smith, smith@123gmail.com, St1234, 132456</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_get_user()'><b>test_get_user</b><br>Test class: api.test.DDTests<br>Parameters: John@27</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+<tr>
+<td title='api.test.DDTests.test_post_user()'><b>test_post_user</b><br>Test class: api.test.DDTests<br>Parameters: 1014, Jimmy@12, Jimmy, Anderson, jimmy@34gmail.com, Jim1234, 165324</td>
+<td></td>
+<td>1</td>
+<td>api.test.DDTests@54a7079e</td></tr>
+</table><p>
+</body>
+</html>
